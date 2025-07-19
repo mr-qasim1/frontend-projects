@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#ECF2FF;
+    font-family: "Open Sans", sans-serif;
+}
+#parent{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+.circle{
+    border-radius:50%;
+    height:160px;
+    width:160px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+    font-weight:medium;
+    color:white;
+    background: linear-gradient(to bottom, #4927D3, #4631E4);
+
+}
+#child-div1{
+background:linear-gradient(to bottom,#6943FE,#3E32EE);
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+flex-grow:0.1;
+gap:10px;
+border-radius:30px;
+transform:translateX(60px);
+}
+.first-h3{
+color:#D2C8FF;
+}
+.second-h3{
+    color:white;
+    font-size:35px;
+}
+.first-span{
+    color: #D2C8FF;
+    font-size: 13px;
+}
+.first-p{
+    color:#D2C8FF;
+}
+#child-div2{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    gap:10px;
+    flex-grow:0.1;
+    padding:20px;
+    border-radius:30px;
+    padding-left:80px;
+}
+.inside-childdiv2{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    
+}
+.second-span{
+    color:#9C999D;
+}
+.phase1{
+    background-color:#FFF6F7;
+}
+.phase2{
+    background-color:#FFFAF4;
+}
+.phase3{
+    background-color:#F2FDF9;
+}
+.phase4{
+    background-color:#F4F4FE;
+}
+.color1{
+    color:#DD5F63;
+}
+.color2{
+    color:#FFB53B;
+}
+.color3{
+    color:#35B191;
+}
+.color4{
+    color:#353B90;
+}
+#class-button{
+    border-radius:30px;
+    padding:10px;
+    outline:none;
+    margin-top:15px;
+    background-color:#303B59;
+    color:white;
+}
