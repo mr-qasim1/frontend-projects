@@ -44,6 +44,7 @@ form{
     background-color:#5C54A2;
     padding:10px 70px;
     color:white;
+    border-radius:10px;
 }
 .first-span{
     color:#BBB6EB;
@@ -63,6 +64,13 @@ input{
     
 }
 .paragraph3{
-    color:red;
+    color: #BBB6EB;
     margin-top:20px;
+    font-size:10px;
+    padding-left:50px;
+
+}
+.second-span{
+    color:red;
+
 }
