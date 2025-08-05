@@ -1,0 +1,108 @@
+  *{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   background-color:#344FA1;
+}
+.heading{
+    text-align:center;
+    color:white;
+}
+.to-do-list {
+    text-align: center;
+
+}
+input{
+    border-radius:20px;
+    padding:10px;
+    width:350px;
+    height:10px;
+    outline:none;
+    background-color:#193075;
+    border:none;
+}
+#add-button{
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    background-color:#EA08FE;
+    border-color:#EA08FE;
+    outline:none;
+    color:white;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+#todo-input-container{
+  position:relative;
+  width:370px;
+  margin:auto;
+}
+.heading2{
+    text-align:center;
+    color:white;
+    width:80%;
+    padding-top:7px;
+}
+
+.square{
+border:solid;
+color:#031956;
+background-color:#031956;
+width:27px;
+height:40px;
+border-top-left-radius: 14px;
+border-bottom-left-radius:14px;
+}
+.fa-regular.fa-circle{
+ font-size:15px;
+ color:#EA08FE;
+ padding-left:6px;
+ padding-top:12px;
+
+}
+.input-field{
+    height:25px;
+    width:300px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.delete-button{
+    color: #031956;
+    background-color: #031956;
+    width: 27px;
+    height: 45px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.task-item{
+    display:flex;
+    justify-content:center;
+    gap:2.5px;
+    padding-top:10px;
+    width:100%;
+    
+}
+.hgi.hgi-stroke.hgi-delete-02{
+    font-size: 18px;
+    color: #EA08FE;
+    padding-left: 2px;
+    padding-top: 12px;
+}
+#task-list-items{
+    width:340px;
+    margin:auto;
+}
+.task-tile{
+    width:100%;
+    background-color:#031956;
+    color:white;
+    padding:5px;
+}
+.qasim{
+    color:white;
+}

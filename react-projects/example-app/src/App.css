@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+#root{
+  width:100%;
+}
+#counter{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+.box{
+  border-radius:10px;
+  width:150px;
+  height:150px;
+  background-color:#3978EE;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:30px;
+  color:white;
+}
+.add{
+    background-color:#DEE8FC; 
+}
+.subtract{
+  background-color:#DEE8FC;
+}
+button{
+  color:#3978EE;
+  font-size:40px;
+}
